@@ -3,7 +3,7 @@ import sklearn
 import pickle
 import pandas as pd
 
-file = open(r"C:\Users\vishw\Desktop\Flight-Fare-Prediction-master\Flight-Fare-Prediction-master\fare_predict.pkl", "rb")
+file = open(r"fare_predict.pkl", "rb")
 model = pickle.load(file)
 
 app = Flask(__name__)
